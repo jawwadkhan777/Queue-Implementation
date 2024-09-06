@@ -9,7 +9,7 @@ As part of my learning journey in DSA using Java, I implemented various Queue da
 ### Custom Queue
 - **Description:** A basic implementation of a Queue using an array, with enqueue and dequeue operations.
 - **Exception Handling:** Handles underflow (dequeue from an empty queue) and overflow (enqueue to a full queue) scenarios.
-- **Complexity:** O(1) for both enqueue and dequeue operations.
+- **Complexity:** O(1) for enqueue and o(n) for dequeue operations.
 
 ### Circular Queue
 - **Description:** A more efficient queue implementation that reuses empty spaces after elements are dequeued, utilizing a circular array.
